@@ -1,0 +1,14 @@
+$color: #f00;
+
+.app {
+	h1 {
+		color: $color;
+	}
+	margin: 1rem;
+	font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.test {
+	background: red;
+	background-attachment: fixed;
+}

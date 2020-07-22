@@ -1,0 +1,42 @@
+{
+	"name": "react-template",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Viktor Danov",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"build": "MODE=production webpack --progress",
+		"serve": "webpack-dev-server",
+		"lint": "eslint '*/**/*.{js,ts,tsx}' --quiet"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.10.5",
+		"@types/react": "^16.9.43",
+		"@types/react-dom": "^16.9.8",
+		"@typescript-eslint/eslint-plugin": "^3.7.0",
+		"@typescript-eslint/parser": "^3.7.0",
+		"babel-loader": "^8.1.0",
+		"compression-webpack-plugin": "^4.0.0",
+		"css-loader": "^3.6.0",
+		"eslint": "^7.5.0",
+		"eslint-plugin-react": "^7.20.3",
+		"node-sass": "^4.14.1",
+		"prettier": "^2.0.5",
+		"sass-loader": "^9.0.2",
+		"style-loader": "^1.2.1",
+		"stylelint": "^13.6.1",
+		"terser-webpack-plugin": "^3.0.7",
+		"ts-loader": "^8.0.1",
+		"typescript": "^3.9.7",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0"
+	},
+	"dependencies": {
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	}
+}
